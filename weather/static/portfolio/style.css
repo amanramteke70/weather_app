@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300);
+body {
+width: 100%;
+height: 100%;
+background-color: #263238;
+margin: 0;
+padding: 0;
+font-family: 'Roboto', Helvetica, Arial, sans-serif;
+color: #fff;
+}
+
+.widget-container {
+width: 612px;
+height: 412px;
+display: block;
+background-color: #313e45;
+border-radius: 25px;
+/*   border: 5px solid #eceff1; */
+margin: 0 auto;
+}
+
+
+/* Widget 4 Quarter Division here */
+
+.top-left {
+height: 60%;
+width: 50%;
+/*   background-color:red; */
+padding: 55px 0 0 70px;
+display: inline-block;
+}
+
+.top-right {
+height: 60%;
+width: 50%;
+/*   background-color: blue; */
+float: right;
+padding: 55px 0 0 0;
+}
+
+.bottom-left {
+height: 40%;
+width: 45%;
+/*   background-color:orange; */
+float: left;
+margin: 0;
+padding: 40px 0 0 50px;
+  position: relative;
+bottom: 329px;
+
+}
+
+.bottom-right {
+height: 40%;
+width: 55%;
+/*   background-color: brown; */
+float: right;
+padding: 25px 0 0 60px;
+position: relative;
+bottom: 529px;
+left: 80px;
+}
+
+h1,
+h2,
+h3,
+p {
+margin: 0;
+padding: 0;
+}
+
+
+/* Top-left Div CSS */
+
+#city {
+font-weight: 900;
+font-size: 25px;
+}
+
+#day {
+font-weight: 700;
+font-size: 25px;
+margin-top: 18px;
+}
+
+#date {
+font-weight: 500;
+font-size: 20px;
+margin-top: 4px;
+}
+
+#time {
+font-weight: 400;
+font-size: 18px;
+margin-top: 8px;
+}
+
+#codepen-link {
+font-weight: 400;
+font-size: 12px;
+margin-top: 20px;
+}
+
+.top-left > a {
+text-decoration: none;
+color: white;
+}
+
+.top-left > a:hover {
+color: #b0bec5;
+}
+
+
+/* Top-Right Div CSS */
+
+#weather-status {
+font-size: 18px;
+font-weight: 300;
+text-align: center;
+margin: 0 auto;
+}
+
+.top-right > img {
+width: 120px;
+height: 120px;
+display: block;
+margin: 15px auto 0 auto;
+}
+
+
+/* Horizontal-Half-divider */
+
+.horizontal-half-divider {
+width: 100%;
+height: 3px;
+margin-top: -5px;
+background-color: #263238;
+}
+
+.vertical-half-divider {
+width: 3px;
+position: absolute;
+height: 113px;
+background-color: #263238;
+float: right;
+display: inline-block;
+padding: 0;
+position: relative;
+right: 304px;
+bottom: 307px;
+}
+
+
+/* Bottom-left CSS */
+
+#temperature,
+#celsius,
+#temp-divider,
+#fahrenheit {
+display: inline;
+vertical-align: middle;
+}
+
+#temperature {
+font-size: 60px;
+font-weight: 800;
+margin-right: 5px;
+}
+
+#celsius {
+margin-right: 10px;
+}
+
+#fahrenheit {
+margin-right: 5px;
+color: #b0bec5;
+}
+
+#celsius,
+#temp-divider,
+#fahrenheit {
+font-size: 30px;
+font-weight: 800;
+}
+
+#celsius:hover,
+#fahrenheit:hover {
+cursor: pointer;
+}
+
+
+
+
+/* Bottom-Right CSS */
+
+.other-details-key {
+float: left;
+font-size: 16px;
+font-weight: 300;
+}
+
+.other-details-values {
+float: left;
+font-size: 16px;
+font-weight: 400;
+margin-left: 40px;
+}
+
+.watermark-link {
+text-decoration:none;
+color:#b0bec5;
+}
+
+.watermark-link:hover {
+color:white;
+text-decoration:none;
+}
+
+.watermark {
+margin-top:10px;
+text-align:center;
+font-weight:400;
+}
+.top-right{
+position: relative;
+bottom: 295px;
+}
+.wrapper {
+    position: relative;
+top: 260px;
+}
+
+body{
+margin: 0;
+padding: 0;
+background-color: #b2e0df;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.search-container{
+display: block;
+margin-top: 275px;
+background: #fff;
+height: 30px;
+border-radius: 30px;
+padding: 10px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.8s;
+/*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+inset -7px -7px 10px 0px rgba(0,0,0,.1),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+text-shadow:  0px 0px 6px rgba(255,255,255,.3),
+          -4px -4px 6px rgba(116, 125, 136, .2);
+text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+          -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+inset -4px -4px 6px 0 rgba(255,255,255,.2),
+inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover > .search-input{
+width: 400px;
+}
+
+.search-container .search-input{
+background: transparent;
+border: none;
+outline:none;
+width: 0px;
+font-weight: 500;
+font-size: 16px;
+transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+color: #5cbdbb;
+}
+
+@keyframes hoverShake {
+0% {transform: skew(0deg,0deg);}
+25% {transform: skew(5deg, 5deg);}
+75% {transform: skew(-5deg, -5deg);}
+100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+animation: hoverShake 0.15s linear 3;
+}
